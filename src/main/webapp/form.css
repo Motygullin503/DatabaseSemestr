@@ -1,0 +1,53 @@
+body {
+    align-content: center;
+}
+.form-input.error, .form-control.error, input#email.form-input.error {
+    border-color: #e85656;
+    box-shadow: 0 0 3px #e85656;
+}
+
+form {
+
+    margin-left: 25%;
+    margin-right:25%;
+    width: 50%;
+    border: 1px solid #f2e3d2;
+
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+
+    padding:20px;
+}
+
+
+
+input[type="text"],input[type="password"],#country_select,#email {
+    border: 1px solid #c9b7a2;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin-top: 22px;
+}
+form h2 {
+    text-shadow: #fdf2e4 0 1px 0;
+    font-size:18px;
+    margin: 0 0 10px 0;
+    font-weight:bold;
+    text-align:center;
+}
+form title {
+    margin-bottom: 10px;
+    color: #725129;
+    text-shadow: #fdf2e4 0 1px 0;
+}
+
+h3{
+    color: maroon;
+}
+
+label.error{
+    margin-top: 40px;
+    display: block;
+    font-size: 12px;
+    color: #e85656;
+}
